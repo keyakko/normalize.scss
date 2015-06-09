@@ -17,6 +17,8 @@ Install with [Component(1)](https://github.com/component/component/): `component
 
 Install with [Bower](http://bower.io/): `bower install --save normalize-scss`
 
+Install with [Npm](https://www.npmjs.com): `npm install --save node.normalize.scss`
+
 ## What does it do?
 
 * Preserves useful defaults, unlike many CSS resets.
