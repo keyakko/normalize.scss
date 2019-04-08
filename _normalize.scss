@@ -8,6 +8,9 @@
  */
 
 $legacy_browser_support: false !default;
+$font-family: sans-serif !default;
+$font-family-mono: monospace, monospace !default;
+
 
 /* Base
    ========================================================================== */
@@ -21,7 +24,7 @@ $legacy_browser_support: false !default;
  */
 
 html {
-  font-family: sans-serif; /* 1 */
+  font-family: $font-family; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
   @if $legacy_browser_support {
@@ -363,7 +366,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: $font-family-mono;
   @if $legacy_browser_support {
     _font-family: 'courier new', monospace;
   }
